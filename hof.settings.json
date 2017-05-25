@@ -1,0 +1,10 @@
+{
+  "theme": "govuk",
+  "//": "points to the different apps to use",
+  "routes": [
+    "./apps/hof-example"
+  ],
+  "session": {
+    "name": "hof-example.hof.sid"
+  }
+}
