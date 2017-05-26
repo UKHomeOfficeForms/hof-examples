@@ -1,15 +1,16 @@
 'use strict';
 
+const summary = require('hof-behaviour-summary-page');
+
 module.exports = {
-  name: 'hof-example',
-  baseUrl: '/hof-example',
+  name: 'summary page',
   steps: {
     '/name': {
       fields: ['name'],
       next: '/confirm'
     },
     '/confirm': {
-      behaviours: ['complete', require('hof-behaviour-summary-page')],
+      behaviours: ['complete', summary],
       next: '/complete'
     },
     '/complete': {

@@ -1,4 +1,8 @@
-# hof-example
-Hof example app using the hof documentation https://ukhomeofficeforms.github.io/hof-guide/documentation
+Home Office Forms (HOF) Examples
+================================
 
-Annotated comments to explain the different elements
+HOF example apps for HOF documentation https://ukhomeofficeforms.github.io/hof-guide/documentation
+
+# Examples
+
+- Summary page
