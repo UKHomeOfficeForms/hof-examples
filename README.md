@@ -6,3 +6,4 @@ HOF example apps for HOF documentation https://ukhomeofficeforms.github.io/hof-g
 # Examples
 
 - Summary page
+- [Github API Integration](./apps/github-api-integration/)

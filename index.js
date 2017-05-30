@@ -9,3 +9,5 @@ settings.root = __dirname;
 settings.start = false;
 
 module.exports = hof(settings);
+
+

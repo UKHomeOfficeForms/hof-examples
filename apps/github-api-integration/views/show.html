@@ -1,0 +1,13 @@
+{{<partials-page}}
+  {{$page-content}}
+    <h1>{{values.name}}'s Github repositories</h1>
+    <ul>
+    {{#values.repos}}
+      <li>
+        <h2><a href="{{{url}}}">{{name}}</a></h2>
+        <p>{{desc}}</p>
+      </li>
+    {{/values.repos}}
+    </ul>
+  {{/page-content}}
+{{/partials-page}}
