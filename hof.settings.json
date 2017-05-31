@@ -2,7 +2,7 @@
   "theme": "govuk",
   "//": "points to the different apps to use",
   "routes": [
-    "./apps/hof-example"
+    "./apps/summary-page"
   ],
   "session": {
     "name": "hof-example.hof.sid"
