@@ -4,7 +4,7 @@ const summary = require('hof-behaviour-summary-page');
 
 module.exports = {
   name: 'summary-page',
-  baseUrl: '/summary-page-example',
+  baseUrl: '/summary-page',
   steps: {
     '/name': {
       fields: ['name'],
