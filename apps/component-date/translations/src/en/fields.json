@@ -1,0 +1,10 @@
+{
+  "date-of-birth": {
+    "legend": "Date of birth",
+    "hint": "For example, 12 3 1980"
+  },
+  "passport-expiry": {
+    "legend": "Passport expiry date",
+    "hint": "For example, 30 04 2028"
+  }
+}

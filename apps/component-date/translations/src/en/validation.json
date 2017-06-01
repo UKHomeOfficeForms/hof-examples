@@ -1,0 +1,12 @@
+{
+  "date-of-birth": {
+    "required": "Enter a date",
+    "before": "Date of birth cannot be in the future",
+    "date": "Enter a valid date"
+  },
+  "passport-expiry": {
+    "required": "Enter a date",
+    "after": "Passport expiry date cannot be in the past",
+    "date": "Enter a valid date"
+  }
+}

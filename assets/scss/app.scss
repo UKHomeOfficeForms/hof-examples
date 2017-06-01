@@ -3,3 +3,7 @@
 .phase-banner {
   @include phase-banner(beta);
 }
+
+.form-label-bold {
+  @include core-19;
+}

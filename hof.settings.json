@@ -3,7 +3,8 @@
   "//": "points to the different apps to use",
   "routes": [
     "./apps/summary-page",
-    "./apps/github-api-integration"
+    "./apps/github-api-integration",
+    "./apps/component-date"
   ],
   "session": {
     "name": "hof-example.hof.sid"
