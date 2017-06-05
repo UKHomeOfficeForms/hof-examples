@@ -14,7 +14,7 @@
     "hof-build": "^1.3.1",
     "hof-form-controller": "^5.0.0",
     "hof-model": "^3.1.1",
-    "hof-component-date": "^1.3.1",
+    "hof-component-date": "^1.4.0",
     "hof-theme-govuk": "^2.0.2"
   },
   "devDependencies": {

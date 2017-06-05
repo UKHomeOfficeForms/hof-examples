@@ -4,7 +4,7 @@
   "routes": [
     "./apps/summary-page",
     "./apps/github-api-integration",
-    "./apps/component-date"
+    "./apps/date-component"
   ],
   "session": {
     "name": "hof-example.hof.sid"
