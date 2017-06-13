@@ -2,7 +2,8 @@
   "theme": "govuk",
   "//": "points to the different apps to use",
   "routes": [
-    "./apps/summary-page"
+    "./apps/summary-page",
+    "./apps/smart-survey-api"
   ],
   "session": {
     "name": "hof-example.hof.sid"
