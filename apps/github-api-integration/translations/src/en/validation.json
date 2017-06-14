@@ -1,0 +1,6 @@
+{
+  "name": {
+    "required": "Please enter a valid Github account name",
+    "not-found": "User not found"
+  }
+}
