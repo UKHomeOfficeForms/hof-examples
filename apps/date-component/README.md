@@ -4,7 +4,7 @@ This tutorial explains the steps to create a date using the [hof-component-date]
 
 ## Getting started
 
-Add a step that displays a date of birth and a field called date-of-birth.
+Add a step that displays a date of birth.
 
 ```
   steps: {
@@ -15,11 +15,13 @@ Add a step that displays a date of birth and a field called date-of-birth.
   }
 ```
 
-## Adding the Date-component field
+## Adding the Date component field
 
 Install the [hof-component-date](https://www.npmjs.com/package/hof-component-date) module
 
-Next, go into the fields directory and open the `index.js` file. Add the field with the key `date-of-birth`. Give this key a property of a `dateComponent()`. The date-component is a function that takes arguments.  Give it the arguments of the name of the field `date-of-birth` and an object validate key with an array of properties `['required']`
+In your field configuration file, create an instance of a data component. You can do this by calling the data component function with a field name and the options for the field. In this case, our field name is date-of-birth and in our options we set a required validator.
+
+Then assign this instance to the appropriate key on your fields config.
 
 ```
 const dateComponent = require('hof-component-date');
@@ -50,7 +52,7 @@ If no arguments are supplied then the validator uses the value of the input of t
 validate: ['required', 'before']
 ```
 
-The above example would mean a user must enter a value before today's date otherwise a validation will be triggered.
+The above example would mean a user must enter a value before today's date otherwise a validation error will be thrown.
 
 ### Date argument
 
@@ -60,7 +62,7 @@ A single date argument can be used.  The validator would use the value entered b
 validate: [{type: 'after', arguments: '1892-01-01'}]
 ```
 
-This would be mean a user must enter a value after `1892-01-1`. Otherwise a validation will be triggered.
+This would be mean a user must enter a value after `1892-01-01`. Otherwise a validation will be triggered.
 
 ### Different unit based arguments
 
