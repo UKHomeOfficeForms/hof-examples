@@ -19,7 +19,7 @@ Add a step that displays a date of birth.
 
 Install the [hof-component-date](https://www.npmjs.com/package/hof-component-date) module
 
-In your field configuration file, create an instance of a data component. You can do this by calling the data component function with a field name and the options for the field. In this case, our field name is date-of-birth and in our options we set a required validator.
+In your field configuration file, create an instance of a date component. You can do this by calling the date component function with a field name and the options for the field. In this case, our field name is date-of-birth and in our options we set a required validator.
 
 Then assign this instance to the appropriate key on your fields config.
 
