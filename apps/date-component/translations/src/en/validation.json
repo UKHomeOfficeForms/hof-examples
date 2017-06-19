@@ -1,0 +1,7 @@
+{
+  "date-of-birth": {
+    "required": "Enter a date",
+    "before": "Date of birth cannot be in the future",
+    "date": "Enter a valid date"
+  }
+}

@@ -7,3 +7,4 @@ HOF example apps for HOF documentation https://ukhomeofficeforms.github.io/hof-g
 
 - [Summary page](./apps/summary-page/)
 - [Github API Integration](./apps/github-api-integration/)
+- [Date component](./apps/date-component/)
