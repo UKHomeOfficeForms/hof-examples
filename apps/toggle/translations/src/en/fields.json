@@ -1,0 +1,18 @@
+{
+  "parent-check": {
+    "options": {
+      "child1": {
+        "label": "son"
+      },
+      "child2": {
+        "label": "daughter"
+      }
+    }
+  },
+  "child1": {
+    "label": "text for child one"
+  },
+  "child2": {
+    "label": "text for child two"
+  }
+}
