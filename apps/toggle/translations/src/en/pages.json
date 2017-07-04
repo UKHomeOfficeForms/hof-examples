@@ -1,1 +1,8 @@
-{}
+{
+  "toggle-checkbox": {
+    "header": "Does the parent have a son or daughter?"
+  },
+    "toggle-radio": {
+    "header": "How do you want to be contacted??"
+  }
+}

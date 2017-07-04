@@ -9,6 +9,11 @@ module.exports = {
     '/toggle-checkbox': {
       behaviours: [fieldsFilter],
       fields: ['parent-check', 'child1-check', 'child2-check'],
+      next: '/toggle-radio'
+    },
+    '/toggle-radio': {
+      behaviours: [fieldsFilter],
+      fields: ['parent-radio', 'child1-radio', 'child2-radio'],
       next: '/confirm'
     },
     '/confirm': {

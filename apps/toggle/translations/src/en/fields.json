@@ -1,18 +1,34 @@
 {
   "parent-check": {
     "options": {
-      "child1": {
+      "child1-check": {
         "label": "son"
       },
-      "child2": {
+      "child2-check": {
         "label": "daughter"
       }
     }
   },
-  "child1": {
-    "label": "text for child one"
+  "child1-check": {
+    "label": "what is his name"
   },
-  "child2": {
-    "label": "text for child two"
+  "child2-check": {
+    "label": "what is her name"
+  },
+  "parent-radio": {
+    "options": {
+      "child1-radio": {
+        "label": "Email"
+      },
+      "child2-radio": {
+        "label": "Phone"
+      }
+    }
+  },
+  "child1-radio": {
+    "label": "Email address"
+  },
+  "child2-radio": {
+    "label": "Phone number"
   }
 }
